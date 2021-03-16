@@ -54,6 +54,11 @@ waitpid(pid_t pid, int* wstatus, int options)
     WNOHANG(wstatus)
     // returns exit status or zombie child or returns immediately if no zombies
 
+pid_t getppid(){}
+    // returns process id of parent 
+
+pid_t getpid();
+    // returns process id of self
 
 /*
 ZOMBIES
