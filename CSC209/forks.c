@@ -70,3 +70,9 @@ Parent terminated first, while child running. Child is adopted by init, which ha
 
 
 */
+
+execl(const char* pathname, const char* arg......., NULL)
+    // takes in path of executable function and executes it.
+    // then it takes in a sequence of arguments it will pass to the executed new process
+
+    // NOTE: PID is the same. process control block is modified and process becomes new process
